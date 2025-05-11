@@ -1,16 +1,31 @@
-# savecondition
+# Flutter Counter App
 
-A new Flutter project.
+Это простое приложение для подсчёта количества нажатий на кнопку. При каждом нажатии цифра увеличивается, и эта информация сохраняется на устройстве. После перезапуска приложения счётчик восстанавливается и продолжает отслеживать количество нажатий.
 
-## Getting Started
+## Описание
 
-This project is a starting point for a Flutter application.
+- На главном экране отображается текущий счётчик.
+- Кнопка увеличивает счётчик на 1.
+- Состояние счётчика сохраняется с помощью пакета `shared_preferences`, чтобы оно не терялось после перезагрузки приложения.
 
-A few resources to get you started if this is your first Flutter project:
+## Как запустить
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Установка
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. Клонируйте репозиторий:
+
+   ```bash
+   git clone https://github.com/YanKarpov/savecondition.git
+
+2. Перейдите в каталог проекта:
+   ```bash
+   cd savecondition
+
+3. Установите зависимости:
+   ```bash
+   flutter pub get
+
+4. Запустите:
+   ```bash
+   flutter run
+  
